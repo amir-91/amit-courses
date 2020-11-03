@@ -16,13 +16,14 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row top-bar justify-content-sm-between align-items-sm-center">
-                <div class="col-12 col-sm-4 logo">
+                <div class="logo">
                     <img src="img/logo.png" alt="AMIT LOGO">
                 </div>
-                <div class="col-12 col-sm-3 navbar">
-                    <span id="menu">MENU</span>
-                   <a id="btnBar" href="#"><i class="fas fa-bars"></i></a> <a id="btnBar" href="#"><i class="far fa-times-circle"></i></a>
-                </div>
+                <div id="btnBar">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span>
+                  </div>
+
+                
 
                 <div id="menuBar">
                     <ul>
@@ -35,24 +36,29 @@
                 </div>
             </div>
 
-            <div id="barmenu">
-                <ul>
-                  <a href="#"><li>courses</li></a> 
-                  <a href="#"><li>courses lorem</li></a> 
-                  <a href="#"><li>courses lorem lorem</li></a> 
-                  <a href="#"><li>courses lor</li></a> 
-                  <a href="#"><li>courses</li></a> 
-                    
-                    
-                   
-                </ul>
-            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="" class="closebtn" onclick="closeNav()">&times;</a>
+                 <a href="">HOME</a>
+                 <a href="">CONTACT</a>
+                 <a href="">COURSES</a>
+                 <a href="">OFFERS</a>
+                 <a href="">ABOUT</a>
+              </div>
+              
+              
+             
+              
+              
+             
+              
+
+        
             <div class="welcome-msg">
                 <h1>We design <span>Things</span></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis cum mollitia delectus, repudiandae debitis dicta, veniam totam impedit nostrum dolores, eius numquam! Cum, sunt.</p>
                 <div class="btn-welcome-container">
-                    <button class="btn-welcome">Our works</button>
-                    <button class="btn-welcome">Hire Us</button>
+                    <button class="btnWelcome">Our works</button>
+                    <button class="btnWelcome">Hire Us</button>
                 </div>
             </div>
         </div>
@@ -100,37 +106,39 @@
                 Ut illo consequuntur corrupti labore minus?</p>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 about-item">
-                       <img class='photo' src="img\pexels-photo-401683.jpeg" alt="1">
-                        
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 about-item">
-                        <img class="photo" src="img\pexels-photo-590037.jpeg" alt="2">
+                    
+                    <div class="about-item ">
+                       <img class="photo" src="img\pexels-photo-590037.jpeg" alt="2"> 
                          
                      </div>
 
-                     <div class="col-12 col-md-6 col-lg-4 about-item">
-                        <img class="photo" src="img\pexels-photo-1483937.jpeg" alt="3">
+                     <div class=" about-item ">
+                      <img class="photo" src="img\pexels-photo-1483937.jpeg" alt="3"> 
                          
                      </div>
                     
-                     <div class="col-12 col-md-6 col-lg-4 about-item">
-                        <img class="photo" src="img\pexels-photo-1516704.jpeg" alt="4">
+                     <div class="about-item ">
+                       <img class="photo" src="img\pexels-photo-1516704.jpeg" alt="4"> 
                          
                      </div>
                     
 
-                     <div class="col-12 col-md-6 col-lg-4 about-item">
-                        <img class="photo" src="img\pexels-photo-1571699.jpeg" alt="5">
+                     <div class="about-item">
+                      <img class="photo" src="img\pexels-photo-1571699.jpeg" alt="5">
                          
                      </div>
 
 
-                     <div class="col-12 col-md-6 col-lg-4 about-item">
-                        <img class="photo" src="img\plan.jpeg" alt="6">
+                     <div class="about-item ">
+                       <img class="photo" src="img\plan.jpeg" alt="6">  
                          
                      </div>
+
+                     <div class="about-item ">
+                        <img class='photo' src="img\pexels-photo-401683.jpeg" alt="1"> 
+                           
+                       </div>
+   
 
                 </div>
             </div>
@@ -213,7 +221,7 @@
             </div>
     </footer>
 
-    <button  id="myBtn" title="Go to top">Top</button>
+    <button  id="myBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
 
     
 
